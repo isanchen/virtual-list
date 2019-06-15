@@ -1,0 +1,21 @@
+.item-container {
+    border: 1px solid red;
+}
+
+.item-container .header {
+    display: flex;
+}
+
+.item-container .title,
+
+.item-container .content {
+    padding: 1em;
+}
+
+.item-container .title {
+    flex-grow: 1;
+}
+
+.item-container .close-button {
+    border: 1px solid green;
+}
